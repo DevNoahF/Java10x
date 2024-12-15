@@ -1,4 +1,4 @@
-package poo;
+package Intermediary.poo;
 
 public class Main {
     public static void main(String[] args) {

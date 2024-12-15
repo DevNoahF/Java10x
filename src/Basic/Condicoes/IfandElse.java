@@ -1,4 +1,4 @@
-package Condicoes;
+package Basic.Condicoes;
 
 public class IfandElse {
     public static void main(String[] args) {

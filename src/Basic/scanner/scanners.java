@@ -1,4 +1,4 @@
-package scannersANDvalidations;
+package Basic.scanner;
 
 import java.util.Scanner;
 

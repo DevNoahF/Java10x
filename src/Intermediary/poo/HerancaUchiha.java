@@ -1,4 +1,4 @@
-package poo;
+package Intermediary.poo;
 
 // subclasse da classe Ninja.java
 

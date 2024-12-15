@@ -1,4 +1,4 @@
-package TernariosLessCode;
+package Basic.TernariosLessCode;
 
 public class ternarios {
     public static void main(String[] args) {

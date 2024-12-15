@@ -1,4 +1,4 @@
-package TypesOfDatas;
+package Basic.TypesOfDatas;
 
 public class NoPrimitive {
     public static void main(String[] args) {

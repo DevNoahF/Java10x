@@ -1,4 +1,4 @@
-package switchCases;
+package Basic.switchCases;
 
 import java.util.Scanner;
 

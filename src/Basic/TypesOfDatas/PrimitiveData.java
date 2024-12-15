@@ -1,4 +1,4 @@
-package TypesOfDatas;
+package Basic.TypesOfDatas;
 
 public class PrimitiveData {
     public static void main(String[] args) { //psvm = Public Static Void Main = BoilerPlate
