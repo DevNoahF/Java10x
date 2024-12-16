@@ -5,11 +5,18 @@ public class Main {
 
         // Classes é  o molde do java
 
+<<<<<<< Updated upstream
         HerancaOthers Jacinto = new HerancaOthers();
         Jacinto.nome = "Jacintinho";
         Jacinto.idade = 19;
         Jacinto.aldeia = "aldeia da folha";
         Jacinto.AtivarPoder();
+=======
+        Ninja jacinto = new Ninja();
+        jacinto.nome = "Jacinto";
+        jacinto.idade = 19;
+        jacinto.aldeia = "aldeia da folha";
+>>>>>>> Stashed changes
 
         // criar ninja joaozinho - objeto
 
@@ -29,11 +36,20 @@ public class Main {
         sasuke.sharinganAtivado();
 
 
+<<<<<<< Updated upstream
         HerancaHaruno naruto = new HerancaHaruno();
         naruto.nome = "Narutinho";
         naruto.idade = 17;
         naruto.aldeia = "aldeia da folha";
         naruto.ModoGay();
+=======
+        //"Naruto é o unico que pode ativar o modo gay, por eu estar iniciando um objeto chamado naruto como herança de ' HerancaUzumaki ' "
+        HerancaUzumaki Naruto =  new HerancaUzumaki();
+        Naruto.nome = "Naruto";
+        Naruto.idade = 17;
+        Naruto.aldeia = "aldeia da folha";
+        Naruto.ModoGyAtivado();
+>>>>>>> Stashed changes
 
     }
 }
