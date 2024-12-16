@@ -5,17 +5,19 @@ public class Main {
 
         // Classes é  o molde do java
 
-        Ninja naruto = new Ninja();
-        naruto.nome = "Narutinho";
-        naruto.idade = 19;
-        naruto.aldeia = "aldeia da folha";
+        HerancaOthers Jacinto = new HerancaOthers();
+        Jacinto.nome = "Jacintinho";
+        Jacinto.idade = 19;
+        Jacinto.aldeia = "aldeia da folha";
+        Jacinto.AtivarPoder();
 
         // criar ninja joaozinho - objeto
 
-        Ninja joaozinho = new Ninja(); // inicialização do objeto array
+        HerancaOthers joaozinho = new HerancaOthers(); // inicialização do objeto array
         joaozinho.nome = "joaozinho";
         joaozinho.idade = 19;
         joaozinho.aldeia = "casa de rinha de galo";
+        joaozinho.AtivarPoder();
 
 
         // sasuke unico ninja que pode utilizar o ' sharingan '
@@ -25,6 +27,14 @@ public class Main {
         sasuke.idade = 19;
         sasuke.aldeia = "aldeia da folha";
         sasuke.sharinganAtivado();
+
+
+        HerancaHaruno naruto = new HerancaHaruno();
+        naruto.nome = "Narutinho";
+        naruto.idade = 17;
+        naruto.aldeia = "aldeia da folha";
+        naruto.ModoGay();
+
     }
 }
 
