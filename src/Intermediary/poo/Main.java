@@ -5,8 +5,7 @@ public class Main {
 
         // Classes é  o molde do java
 
-<<<<<<< Updated upstream
-        HerancaOthers Jacinto = new HerancaOthers();
+        HerancaHumanos Jacinto = new HerancaHumanos();
         Jacinto.nome = "Jacintinho";
         Jacinto.idade = 19;
         Jacinto.aldeia = "aldeia da folha";
@@ -20,7 +19,7 @@ public class Main {
 
         // criar ninja joaozinho - objeto
 
-        HerancaOthers joaozinho = new HerancaOthers(); // inicialização do objeto array
+        HerancaHumanos joaozinho = new HerancaHumanos(); // inicialização do objeto array
         joaozinho.nome = "joaozinho";
         joaozinho.idade = 19;
         joaozinho.aldeia = "casa de rinha de galo";
@@ -51,6 +50,11 @@ public class Main {
         Naruto.ModoGyAtivado();
 >>>>>>> Stashed changes
 
+        HerancaHyuga hinata = new HerancaHyuga();
+        hinata.nome = "Hinata";
+        hinata.idade = 16;
+        hinata.aldeia = "aldeia da folha";
+        hinata.ativarHyunga();
     }
 }
 
