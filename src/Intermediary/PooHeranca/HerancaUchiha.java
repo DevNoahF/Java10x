@@ -1,4 +1,4 @@
-package Intermediary.poo;
+package Intermediary.PooHeranca;
 
 // subclasse da classe Ninja.java
 

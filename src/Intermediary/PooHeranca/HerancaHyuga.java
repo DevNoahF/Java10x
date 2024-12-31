@@ -1,4 +1,4 @@
-package Intermediary.poo;
+package Intermediary.PooHeranca;
 
 public class HerancaHyuga extends  Ninja{
     public void ativarHyunga(){

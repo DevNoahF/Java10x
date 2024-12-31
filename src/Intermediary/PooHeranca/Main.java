@@ -1,21 +1,10 @@
-package Intermediary.poo;
+package Intermediary.PooHeranca;
 
 public class Main {
     public static void main(String[] args) {
 
         // Classes é  o molde do java
 
-        HerancaHumanos Jacinto = new HerancaHumanos();
-        Jacinto.nome = "Jacintinho";
-        Jacinto.idade = 19;
-        Jacinto.aldeia = "aldeia da folha";
-        Jacinto.AtivarPoder();
-=======
-        Ninja jacinto = new Ninja();
-        jacinto.nome = "Jacinto";
-        jacinto.idade = 19;
-        jacinto.aldeia = "aldeia da folha";
->>>>>>> Stashed changes
 
         // criar ninja joaozinho - objeto
 
@@ -35,26 +24,27 @@ public class Main {
         sasuke.sharinganAtivado();
 
 
-<<<<<<< Updated upstream
-        HerancaHaruno naruto = new HerancaHaruno();
-        naruto.nome = "Narutinho";
-        naruto.idade = 17;
-        naruto.aldeia = "aldeia da folha";
-        naruto.ModoGay();
-=======
         //"Naruto é o unico que pode ativar o modo gay, por eu estar iniciando um objeto chamado naruto como herança de ' HerancaUzumaki ' "
         HerancaUzumaki Naruto =  new HerancaUzumaki();
         Naruto.nome = "Naruto";
         Naruto.idade = 17;
         Naruto.aldeia = "aldeia da folha";
         Naruto.ModoGyAtivado();
->>>>>>> Stashed changes
+
 
         HerancaHyuga hinata = new HerancaHyuga();
         hinata.nome = "Hinata";
         hinata.idade = 16;
         hinata.aldeia = "aldeia da folha";
         hinata.ativarHyunga();
+
+        Boruto boruto = new Boruto();
+        boruto.nome = "Boruto";
+        boruto.idade = 9;
+        boruto.aldeia = "aldeia da folha";
+        boruto.AtivarJougan();
+        boruto.AtivarOkarma();
+        boruto.ModoGyAtivado();
     }
 }
 

@@ -1,4 +1,4 @@
-package Intermediary.poo;
+package Intermediary.PooHeranca;
 
 public class HerancaUzumaki  extends Ninja{  // HerancaUzumaki é filha do Ninja
     public void ModoGyAtivado(){

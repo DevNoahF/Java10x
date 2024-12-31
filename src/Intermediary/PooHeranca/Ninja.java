@@ -1,4 +1,4 @@
-package Intermediary.poo;
+package Intermediary.PooHeranca;
 
 // Ninja.java é a classe mãe
 
