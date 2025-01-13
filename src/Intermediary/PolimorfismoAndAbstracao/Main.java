@@ -1,18 +1,20 @@
-package Intermediary.PolimorfismoAndHeranca;
+package Intermediary.PolimorfismoAndAbstracao;
 
 public class Main {
     public static void main(String[] args) {
+
+        // Obj Uzumaki
         Uzumaki naruto = new Uzumaki();
         naruto.nome = "Naruto Uzumaki";
         naruto.idade = 17;
         naruto.aldeia = "Aldeia da folha";
         naruto.habiidadeEspecial();
 
-        System.out.println(naruto.nome);
-        System.out.println(naruto.idade+" anos");
-        System.out.println(naruto.aldeia);
+
 
         System.out.println("-----------------------------------------");
+
+        // Obj Uchiha
         Uchiha sasuke = new Uchiha();
         sasuke.nome = "Sasuke Uchiha";
         sasuke.idade = 19;
@@ -20,9 +22,7 @@ public class Main {
         sasuke.habiidadeEspecial();
 
 
-        System.out.println(sasuke.nome);
-        System.out.println(sasuke.idade+" anos");
-        System.out.println(sasuke.aldeia);
+
 
 
 
