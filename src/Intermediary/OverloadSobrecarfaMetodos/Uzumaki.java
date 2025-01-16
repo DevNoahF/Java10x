@@ -1,25 +1,23 @@
 package Intermediary.OverloadSobrecarfaMetodos;
 
-import Intermediary.OverloadSobrecargaConstrutores.NivelNinja;
-
 public class Uzumaki extends Ninja {
 
-    public Uzumaki(String nome, String aldeia, int idade, int missoesConcluidas) {
-        super(nome, aldeia, idade, missoesConcluidas);
+    public Uzumaki() {
     }
 
-    public Uzumaki(NivelNinja rank, String nome, String aldeia, int idade, int missoesConcluidas) {
-        super(rank, nome, aldeia, idade, missoesConcluidas);
+    public Uzumaki(String nome, String aldeia, int idade) {
+        super(nome, aldeia, idade);
     }
 
+    public Uzumaki(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, NivelNinja rank) {
+        super(nome, aldeia, idade, numeroDeMissoesConcluidas, rank);
+    }
+
+    // Sobreescrever o metodo da classe Ninja
     @Override
-    public void missoesCon() {
-        System.out.println("Meu nome é: " + nome + " e tenho: " + missoesConcluidas + " missoes concluidas.");
-        System.out.println("Meu nivel ninja é: " + rank);
+    public void habilidadeEspecial() {
+        System.out.println("Meu nome é " + nome + " e esse é meu ataque Uzumaki, um ataque de ar");
     }
-
-    public void packDoPe() {
-        System.out.println("vendo o peck do pé por 100 reais cada foto.");
-    }
-
 }
+
+

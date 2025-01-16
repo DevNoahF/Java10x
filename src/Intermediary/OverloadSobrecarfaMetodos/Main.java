@@ -6,14 +6,17 @@ public class Main {
     public static void main(String[] args) {
 
         // Sempre que um novo construtor for adicionado, o que vai ser instanciado vai sempre instanciado primeiro
-        Uzumaki naruto = new Uzumaki(NivelNinja.KAGE, "Naruto Uzumaki", "aldeia da folha", 17, 69);
-        naruto.missoesCon();
-        naruto.packDoPe();
+        Uzumaki naruto = new Uzumaki("Naruto Uzumaki", "aldeia da folha", 16,909, Intermediary.OverloadSobrecarfaMetodos.NivelNinja.KAGE);
+
 
         System.out.println("_______________________________________________________________________________________");
 
         // Sempre que um novo construtor for adicionado, o que vai ser instanciado vai sempre instanciado primeiro
-        Uchiha sasuke = new Uchiha(NivelNinja.CHUUNIN, "Sasuke Uchiha", "Aldeia da folha", 19, 999);
-        sasuke.missoesCon();
+        Uchiha sasuke = new Uchiha("Sasuke Uchiha","aldeia da folha", 19,999, NivelNinja.GENIN);
+
+
+
+        // Sobrecarreegar um
+
     }
 }
