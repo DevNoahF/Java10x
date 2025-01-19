@@ -1,7 +1,6 @@
 package Intermediary.FinalMethods;
 
-public abstract class Ninja {
-
+public abstract class Ninja implements EstrategiaDeBatalha {
     String nome;
     String aldeia;
     int idade;
@@ -12,9 +11,8 @@ public abstract class Ninja {
         this.idade = idade;
     }
 
-    // Metodo que todo ninja vai fazer obrigatoriamento
-    final void tacarKunai(){ // quando colocamos final ele nao pode ser sobrescrito
-        System.out.println("Sou um metodo da classe mae");
+    @Override
+    public void estrategiaDeBatalha() {
+        System.out.println("Meu nome é: " + nome +" e minha estrategia de batalha é generica");
     }
-
 }

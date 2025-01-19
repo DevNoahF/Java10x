@@ -7,9 +7,7 @@ public class Uzumaki extends Ninja {
     }
 
     @Override
-    public void tacarKunai(){
-        System.out.println("Sou um metodo da classe filha(subclass)");
+    public void estrategiaDeBatalha() {
+        System.out.println("Meu nome é: " + nome +" e minha estrategia de batalha é ser um Uzumaki");
     }
-
-
 }
