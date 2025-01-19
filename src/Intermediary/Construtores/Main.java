@@ -6,7 +6,7 @@ public class Main {
         Hokages Hashirama = new Hokages();
         Hashirama.idade = 45;
 
-        Hokages Tobirama = new Hokages( "Tobirama Senju");
+        Hokages Tobirama = new Hokages( "Tobirama Senju",19,true);
             System.out.println(Tobirama.nome);
 
     }
