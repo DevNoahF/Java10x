@@ -18,7 +18,7 @@ public class Uchiha extends Ninja {
     // Sobreescrever o metodo da classe Ninja
     @Override
     public void habilidadeEspecial() {
-        System.out.println("Meu nome é " + nome + " e esse é meu ataque Uchiha, um ataque de fogo. Eu ja completei: " + numeroDeMissoesConcluidas + " missoes." );
+        System.out.println("Meu nome é " + getNome() + " e esse é meu ataque Uchiha, um ataque de fogo. Eu ja completei: " + getNumeroDeMissoesConcluidas() + " missoes." );
     }
 
 
@@ -28,7 +28,7 @@ public class Uchiha extends Ninja {
     }
     @Override
     public void inteligenciaDeCombate() {
-        System.out.println("Meu nome é: " + nome + " Essa é minha INTELIGENCIA de combate");
+        System.out.println("Meu nome é: " + getNome() + " Essa é minha INTELIGENCIA de combate");
     }
 
     @Override

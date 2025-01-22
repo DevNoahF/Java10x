@@ -1,4 +1,4 @@
-package Intermediary.Enums;
+package Intermediary.Enum_s;
 
 public enum RankDeMissoes {
      // Uma classe ENUM é usada sempre que voce deseja padronizar seu codigo
