@@ -5,11 +5,13 @@ public abstract class Ninja implements EstrategiaBatalha {
     //TODO: Incluir novos 2 atributos: numeroDeMissoesConcluidas , Rank
     // TODO: Rank: Gennin, Chunnin, Jounnin, Hokage
 
-    String nome;
-    String aldeia;
-    int idade;
-    int numeroDeMissoesConcluidas;
-    NivelNinja rank;
+    // CODE REFATORADOO DIA 20/01
+
+    private String nome;
+    private String aldeia;
+    private int idade;
+    private int numeroDeMissoesConcluidas;
+    private NivelNinja rank;
 
     public Ninja() {
     }
@@ -29,6 +31,45 @@ public abstract class Ninja implements EstrategiaBatalha {
         this.rank = rank;
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getAldeia() {
+        return aldeia;
+    }
+
+    public void setAldeia(String aldeia) {
+        this.aldeia = aldeia;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public int getNumeroDeMissoesConcluidas() {
+        return numeroDeMissoesConcluidas;
+    }
+
+    public void setNumeroDeMissoesConcluidas(int numeroDeMissoesConcluidas) {
+        this.numeroDeMissoesConcluidas = numeroDeMissoesConcluidas;
+    }
+
+    public NivelNinja getRank() {
+        return rank;
+    }
+
+    public void setRank(NivelNinja rank) {
+        this.rank = rank;
+    }
 
     // Metodos geral! Todos os ninjas vao ter
     public void habilidadeEspecial() {
