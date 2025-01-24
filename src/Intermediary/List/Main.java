@@ -31,27 +31,27 @@ public class Main {
         }
 
         // Listas nao são estaticas, elas podem aumentar e diminuir
-        List<String> ninjasList = new ArrayList<>(); // lista sempre começa vazia
-        ninjasList.add("Naruto Uzumaki");
-        ninjasList.add("Jacintinho");
-        ninjasList.add("Jamal");
+        List<String> gayList = new ArrayList<>(); // lista sempre começa vazia
+        gayList.add("Naruto Uzumaki");
+        gayList.add("Jacintinho");
+        gayList.add("Jamal");
 
-        System.out.println(ninjasList); //ja na lista ele mesmo ja faz essa conta autimaticamente
+        System.out.println(gayList); //ja na lista ele mesmo ja faz essa conta autimaticamente
 
         // Adicionar na lista
-        ninjasList.add("Trump");
-        System.out.println(ninjasList);
+        gayList.add("Trump");
+        System.out.println(gayList);
 
         // Remover da lista
-        ninjasList.remove("Jacintinho");
-        System.out.println(ninjasList);
+        gayList.remove("Jacintinho");
+        System.out.println(gayList);
 
         // Trocar elementos
-        ninjasList.set(1,"Jacintinho Junior");
-        System.out.println(ninjasList);
+        gayList.set(1,"Jacintinho Junior");
+        System.out.println(gayList);
 
         //Ver o tamanho da Lista
-        System.out.println("Tamanho da lista: " + ninjasList.size());
+        System.out.println("Tamanho da lista: " + gayList.size());
 
     }
 }
